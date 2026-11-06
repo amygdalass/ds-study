@@ -36,6 +36,8 @@ def test_count_vowels(text, expected):
         ([-1, -5, -3], -3),
         ([1, 2, 3, 4, 5], 4),
         ([10, 9, 10, 9], 9),
+        ([10, 10, 9], 9),
+        ([7, 7, 7, 1], 1),
     ],
 )
 def test_second_largest(nums, expected):
